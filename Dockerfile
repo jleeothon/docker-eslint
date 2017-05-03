@@ -10,4 +10,4 @@ apk del .yarn-deps
 COPY package.json package.json
 COPY yarn.lock yarn.lock
 COPY .eslintrc.json /etc/eslint/.eslintrc.json
-RUN yarn global install
+RUN yarn install -g
