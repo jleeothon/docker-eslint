@@ -4,4 +4,7 @@ services:
   - docker
 
 before_script:
-  - docker info
+  - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+  - docker build -t image .
+  - docker tag image jleeothon/docker-eslint:latest
+  - docker push jleeothon/docker-eslint:latest
