@@ -1,0 +1,18 @@
+{
+  "name": "docker-eslint",
+  "version": "0.1.0",
+  "description": "Node linter for Johnny's personal projects",
+  "main": "index.js",
+  "repository": "https://github.com/jleeothon/docker-eslint",
+  "author": "Johnny Lee-Othon <jleeothon@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "standard": "^10.0.2"
+  }
+}
