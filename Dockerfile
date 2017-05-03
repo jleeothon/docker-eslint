@@ -1,5 +1,4 @@
 FROM node:7.9.0-alpine
-RUN apk add --no-cache curl bash
 
 RUN touch $HOME/.profile
 RUN \
